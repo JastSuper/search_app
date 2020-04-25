@@ -10,7 +10,7 @@ app.configure(background = "#ececec")
 app_name = ttk.Label(app, text = "Поисковое приложение", font = "verdana 16 italic")
 app_name.grid(row=0, column=1)
 
-search_label = ttk.Label(app, text = "Поиск")
+search_label = ttk.Label(app, text = "Поиск", font = "times 14")
 search_label.grid(row=1, column=0)
 
 text_field = ttk.Entry(app, width = 50)
